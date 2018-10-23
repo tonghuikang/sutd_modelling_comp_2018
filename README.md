@@ -1,6 +1,13 @@
-# sutd_modelling_comp_2018
+# 2nd Annual Singapore Collegiate Math Modelling Challenge
 
-This project was done with Foo Lin Geng. https://github.com/lingengfoo
+![comp](https://raw.githubusercontent.com/tonghuikang/sutd_modelling_comp_2018/d8933fd01de2b2e2793577103d3d613ce594bbed/comp.png "Competition information")
+
+This competition was done with Foo Lin Geng. https://github.com/lingengfoo
+
+# About the competition
+This competition is conceived by Sergey Khursarvhev from Singapore University Technology and Design and MAJ Jessica M. Libertini from Virginia Military Institute. This serves to expose undergraduates to mathematical modelling and hopefully recuit and prepare local participants for COMAP Mathematical Contest in Modelling (MCM/ICM). This competition is modelled after modelling competitions such as those from COMAP. 
+
+Foo Lin Geng and I participated in 2018 COMAP MCM/ICM and achieved a Honorable Mention.
 
 # Question Statement
 
@@ -40,3 +47,9 @@ We think that impassable terrain for fires, such as lakes and glaciers, should h
 
 ## Conclusion
 Our model was tested to be robust during our simulations, and it could deal with cases where multiple fires are detected at once. It is also not more difficult to adapt our model for use in other forests, by introducing another map and changing hyperparameters like wind speed, the angle of slope, etc.
+
+![screenshot](https://raw.githubusercontent.com/tonghuikang/sutd_modelling_comp_2018/master/screenshot.png "screenshot")
+
+# Reflections
+
+We managed to create something of minimum value - an algorithm that evaluates which of the two evacuation path chosen is better. With better coding skills and time this can be generalised to generate the safest path by interating through the various combinations. In this aspect, and together with later experiences at coding competition, anyone claiming to code algorithms should be able to work with graphs and implement Dijkstra's algorithm is the various contexts.
